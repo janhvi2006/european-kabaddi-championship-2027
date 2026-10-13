@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-midnight text-ink font-sans;
+    overflow-x: hidden;
+  }
+  ::selection {
+    @apply bg-electric/40 text-ink;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-midnight;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-midnight-2 rounded-full;
+    border: 2px solid #050A12;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-electric/60;
+  }
+}
+
+@layer components {
+  .container-edge {
+    @apply mx-auto w-full max-w-edge px-5 sm:px-8 lg:px-12;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-electric text-ink font-sans font-semibold text-sm uppercase tracking-widest2 transition-all duration-300 hover:bg-electric-dim hover:shadow-[0_0_30px_rgba(37,99,255,0.5)] focus:outline-none focus-visible:ring-2 focus-visible:ring-electric focus-visible:ring-offset-2 focus-visible:ring-offset-midnight;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 border border-line bg-white/5 text-ink font-sans font-semibold text-sm uppercase tracking-widest2 transition-all duration-300 hover:border-electric hover:bg-electric/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-electric focus-visible:ring-offset-2 focus-visible:ring-offset-midnight;
+  }
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-gold text-midnight font-sans font-semibold text-sm uppercase tracking-widest2 transition-all duration-300 hover:bg-gold-dim hover:shadow-[0_0_30px_rgba(200,164,93,0.4)] focus:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-midnight;
+  }
+  .eyebrow {
+    @apply font-sans text-xs font-semibold uppercase tracking-widest2 text-gold;
+  }
+  .section-pad {
+    @apply py-20 md:py-28 lg:py-32;
+  }
+  .card-surface {
+    @apply bg-midnight-2 border border-line;
+  }
+  .field-input {
+    @apply w-full bg-midnight-2 border border-line px-4 py-3 text-ink font-sans text-sm transition-colors duration-200 placeholder:text-muted-2 focus:outline-none focus:border-electric;
+  }
+  .demo-tag {
+    @apply inline-flex items-center gap-1.5 px-2.5 py-1 bg-gold/15 text-gold text-[10px] font-semibold uppercase tracking-widest2 border border-gold/30;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Flag CSS backgrounds */
+.flag {
+  background-size: cover;
+  background-position: center;
+}
+
+.flag-fr { background: linear-gradient(90deg,#0055A4 0 33.3%,#fff 33.3% 66.6%,#EF4135 66.6%); }
+.flag-de { background: linear-gradient(#000 0 33.3%,#DD0000 33.3% 66.6%,#FFCE00 66.6%); }
+.flag-pl { background: linear-gradient(#fff 50%,#DC143C 50%); }
+.flag-it { background: linear-gradient(90deg,#009246 0 33.3%,#fff 33.3% 66.6%,#CE2B37 66.6%); }
+.flag-en { background: #fff; position: relative; }
+.flag-en::before {
+  content:""; position:absolute; inset:0;
+  background:
+    linear-gradient(#C8102E 43%,#fff 43% 57%,#C8102E 57%),
+    linear-gradient(90deg,#C8102E 43%,#fff 43% 57%,#C8102E 57%);
+  background-size: 100% 100%, 100% 100%;
+}
+.flag-en::after {
+  content:""; position:absolute; inset:42% 0;
+  background:#C8102E; height:16%;
+}
+.flag-nl { background: linear-gradient(#AE1C28 0 33.3%,#fff 33.3% 66.6%,#21468B 66.6%); }
+.flag-cz { background:#fff; position:relative; }
+.flag-cz::before {
+  content:""; position:absolute; inset:0;
+  background: linear-gradient(90deg,#11457E 0 50%,#fff 50%);
+}
+.flag-cz::after {
+  content:""; position:absolute; inset:0;
+  background: linear-gradient(45deg,#D7141A 0 50%, transparent 50%);
+}
+.flag-hu { background: linear-gradient(#477050 0 33.3%,#fff 33.3% 66.6%,#B73E3D 66.6%); }
