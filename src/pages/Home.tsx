@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Reveal } from "../components/Reveal";
 import { SectionHeading, DemoBadge, FlagByClass } from "../components/UI";
-import { AbArena, AbAthlete } from "../components/Abstract";
+import { AbAthlete } from "../components/Abstract";
 import { NATIONS, STANDINGS, MATCHES, ATHLETES, NEWS, MEDIA_ITEMS, type Category } from "../data/content";
 
 const ATHLETE_IMAGES: string[] = [
@@ -593,7 +593,7 @@ function VenueSection() {
             </div>
           </Reveal>
           <Reveal delay={150}>
-            <AbArena className="h-80 lg:h-[480px]" />
+            <img src="/european-kabaddi-championship-2027/images/sponsors/arena.png" alt="European Kabaddi Championship indoor arena" className="h-80 lg:h-[480px] w-full object-cover" />
           </Reveal>
         </div>
       </div>
