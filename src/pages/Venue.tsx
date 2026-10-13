@@ -28,7 +28,7 @@ export function Venue() {
 
 <div className="group relative overflow-hidden border border-line h-80 lg:h-[440px]">
   <img
-    src="/images/news/cologne-rhine.jpg"
+    src="/european-kabaddi-championship-2027/images/news/cologne-rhine.jpg"
     alt="European Kabaddi Championship arena"
     className="block w-full h-full object-cover"
   />
@@ -121,17 +121,17 @@ export function Venue() {
   {
     tier: "Premium",
     desc: "International 5-star hotels in the city centre and along the Rhine.",
-    image: "/images/tickets/vip-hospitality.png",
+    image: "/european-kabaddi-championship-2027/images/tickets/vip-hospitality.png",
   },
   {
     tier: "Standard",
     desc: "Comfortable mid-range hotels with easy access to the venue.",
-    image: "/images/tickets/premium.png",
+    image: "/european-kabaddi-championship-2027/images/tickets/premium.png",
   },
   {
     tier: "Budget",
     desc: "Hostels and budget hotels for travelling fans and teams.",
-    image: "/images/tickets/standard.png",
+    image: "/european-kabaddi-championship-2027/images/tickets/standard.png",
   },
 ].map((item, i) => (
               <Reveal key={item.tier} delay={i * 100}>

@@ -49,22 +49,22 @@ export function Tickets() {
   {
     tier: "VIP Hospitality",
     desc: "Premium seating, hospitality access and exclusive experiences.",
-    image: "/images/tickets/vip-hospitality.png",
+    image: "/european-kabaddi-championship-2027/images/tickets/vip-hospitality.png",
   },
   {
     tier: "Premium",
     desc: "Reserved seating with excellent sightlines to the mat.",
-    image: "/images/tickets/premium.png",
+    image: "/european-kabaddi-championship-2027/images/tickets/premium.png",
   },
   {
     tier: "Standard",
     desc: "General admission access to championship sessions.",
-    image: "/images/tickets/standard.png",
+    image: "/european-kabaddi-championship-2027/images/tickets/standard.png",
   },
   {
     tier: "Group / Family",
     desc: "Special packages for groups and families.",
-    image: "/images/tickets/group-family.png",
+    image: "/european-kabaddi-championship-2027/images/tickets/group-family.png",
   },
 ].map((item, i) => (
   <Reveal key={item.tier} delay={i * 80}>

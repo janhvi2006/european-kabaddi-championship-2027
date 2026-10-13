@@ -80,7 +80,7 @@ export function Teams() {
                 >
                   <div className="h-28 relative overflow-hidden">
                     <img
-  src={`/images/teams/team-${team.code.toLowerCase() === "ger" ? "germany-new" : team.code.toLowerCase() === "pol" ? "poland" : team.code.toLowerCase() === "ita" ? "italy" : team.code.toLowerCase() === "eng" ? "england" : team.code.toLowerCase() === "ned" ? "netherlands" : team.code.toLowerCase() === "cze" ? "czech-republic" : team.code.toLowerCase() === "hun" ? "hungary" : "germany"}.png`}
+  src={`/european-kabaddi-championship-2027/images/teams/team-${team.code.toLowerCase() === "ger" ? "germany-new" : team.code.toLowerCase() === "pol" ? "poland" : team.code.toLowerCase() === "ita" ? "italy" : team.code.toLowerCase() === "eng" ? "england" : team.code.toLowerCase() === "ned" ? "netherlands" : team.code.toLowerCase() === "cze" ? "czech-republic" : team.code.toLowerCase() === "hun" ? "hungary" : "germany"}.png`}
   alt="Kabaddi match action"
   className="absolute inset-0 h-full w-full object-cover opacity-70 transition-transform duration-500 group-hover:scale-110"
 />

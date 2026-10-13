@@ -6,20 +6,20 @@ import { AbArena, AbAthlete } from "../components/Abstract";
 import { NATIONS, STANDINGS, MATCHES, ATHLETES, NEWS, MEDIA_ITEMS, type Category } from "../data/content";
 
 const ATHLETE_IMAGES: string[] = [
-  "/images/athletes/01_Lucas_Moreau.jpg",
-  "/images/athletes/02_Anna_Schmidt.jpg",
-  "/images/athletes/03_Kamil_Nowak.jpg",
-  "/images/athletes/04_Sofia_Rossi.jpg",
-  "/images/athletes/05_James_Carter.jpg",
-  "/images/athletes/06_Lotte_Visser.jpg",
+  "/european-kabaddi-championship-2027/images/athletes/01_Lucas_Moreau.jpg",
+  "/european-kabaddi-championship-2027/images/athletes/02_Anna_Schmidt.jpg",
+  "/european-kabaddi-championship-2027/images/athletes/03_Kamil_Nowak.jpg",
+  "/european-kabaddi-championship-2027/images/athletes/04_Sofia_Rossi.jpg",
+  "/european-kabaddi-championship-2027/images/athletes/05_James_Carter.jpg",
+  "/european-kabaddi-championship-2027/images/athletes/06_Lotte_Visser.jpg",
 ];
 
 const ATHLETE_IMAGE_POSITIONS: string[] = ["center", "center", "center", "center", "center", "center"];
 
 const NEWS_IMAGES: string[] = [
-  "/images/news/01_News_Road_to_EKC_2027.jpg",
-  "/images/news/02_News_European_Stage.jpg",
-  "/images/news/03_News_Next_Generation.jpg",
+  "/european-kabaddi-championship-2027/images/news/01_News_Road_to_EKC_2027.jpg",
+  "/european-kabaddi-championship-2027/images/news/02_News_European_Stage.jpg",
+  "/european-kabaddi-championship-2027/images/news/03_News_Next_Generation.jpg",
 ];
 
 const MEDIA_VIDEO_URLS: string[] = [
@@ -77,7 +77,7 @@ function Hero() {
         <div
           className="absolute inset-y-0 right-0 w-full md:w-[62%] lg:w-[55%] xl:w-[48%]"
           style={{
-            backgroundImage: "url(/images/athletes/01_Lucas_Moreau.jpg)",
+            backgroundImage: "url(/european-kabaddi-championship-2027/images/athletes/01_Lucas_Moreau.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "right center",
           }}
@@ -232,14 +232,14 @@ function Categories() {
       variant: "men" as const,
       desc: "Europe's finest men's national teams compete for continental glory on the Kabaddi mat.",
       to: "/championship",
-      image: "/images/athletes/01_Lucas_Moreau.jpg",
+      image: "/european-kabaddi-championship-2027/images/athletes/01_Lucas_Moreau.jpg",
     },
     {
       title: "Women's Championship",
       variant: "women" as const,
       desc: "A historic platform for women's European Kabaddi, showcasing elite national talent.",
       to: "/championship",
-      image: "/images/athletes/04_Sofia_Rossi.jpg",
+      image: "/european-kabaddi-championship-2027/images/athletes/04_Sofia_Rossi.jpg",
     },
   ];
   return (

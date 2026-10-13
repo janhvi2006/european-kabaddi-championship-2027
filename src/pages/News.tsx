@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { Reveal } from "../components/Reveal";
 import { PageHero, SectionHeading, DemoBadge } from "../components/UI";
 const NEWS_IMAGES = [
-  "/images/news/01_News_Road_to_EKC_2027.jpg",
-  "/images/news/02_News_European_Stage.jpg",
-  "/images/news/03_News_Next_Generation.jpg",
+  "/european-kabaddi-championship-2027/images/news/01_News_Road_to_EKC_2027.jpg",
+  "/european-kabaddi-championship-2027/images/news/02_News_European_Stage.jpg",
+  "/european-kabaddi-championship-2027/images/news/03_News_Next_Generation.jpg",
 ];
 import { NEWS } from "../data/content";
 
@@ -16,7 +16,7 @@ const EXTRA_NEWS = [
     category: "Host City",
     date: "January 2027",
     excerpt: "Preparations are underway in Köln as the city prepares to host the European Kabaddi Championship.",
-image: "/images/news/01_News_Road_to_EKC_2027.jpg",
+image: "/european-kabaddi-championship-2027/images/news/01_News_Road_to_EKC_2027.jpg",
 demo: true,
   },
   {
@@ -25,7 +25,7 @@ demo: true,
     category: "Partnerships",
     date: "January 2027",
     excerpt: "Brands and organisations invited to explore partnership with the European Kabaddi Championship.",
-    image: "/images/news/02_News_European_Stage.jpg",
+    image: "/european-kabaddi-championship-2027/images/news/02_News_European_Stage.jpg",
     demo: true,
   },
   {
@@ -34,7 +34,7 @@ demo: true,
     category: "Sport",
     date: "December 2026",
     excerpt: "European Kabaddi continues to expand as more nations invest in national team programmes.",
-    image: "/images/news/03_News_Next_Generation.jpg",
+    image: "/european-kabaddi-championship-2027/images/news/03_News_Next_Generation.jpg",
     demo: true,
   },
 ];

@@ -146,7 +146,7 @@ export const NEWS: NewsItem[] = [
     category: "Championship",
     date: "March 2027",
     excerpt: "As the championship approaches, European nations prepare to compete on the continental stage in Köln.",
-    image: "/images/news/01_News_Road_to_EKC_2027.jpg",
+    image: "/european-kabaddi-championship-2027/images/news/01_News_Road_to_EKC_2027.jpg",
     demo: true,
   },
   {
@@ -155,7 +155,7 @@ export const NEWS: NewsItem[] = [
     category: "Competition",
     date: "March 2027",
     excerpt: "For the first time, both men's and women's categories will share one European championship platform.",
-    image: "/images/news/02_News_European_Stage.jpg",
+    image: "/european-kabaddi-championship-2027/images/news/02_News_European_Stage.jpg",
     demo: true,
   },
   {
@@ -164,7 +164,7 @@ export const NEWS: NewsItem[] = [
     category: "Athletes",
     date: "February 2027",
     excerpt: "A new wave of European athletes is redefining what Kabaddi looks like on the continent.",
-    image: "/images/news/03_News_Next_Generation.jpg",
+    image: "/european-kabaddi-championship-2027/images/news/03_News_Next_Generation.jpg",
     demo: true,
   },
 ];

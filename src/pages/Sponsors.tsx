@@ -185,22 +185,22 @@ export function Sponsors() {
     {
       title: "On-Mat Branding",
       label: "Brand Placement",
-      image: "/images/sponsors/on-mat.png",
+      image: "/european-kabaddi-championship-2027/images/sponsors/on-mat.png",
     },
     {
       title: "Arena Visibility",
       label: "Signage & Activation",
-      image: "/images/sponsors/arena.png",
+      image: "/european-kabaddi-championship-2027/images/sponsors/arena.png",
     },
     {
       title: "Digital & Social",
       label: "Social & Content",
-      image: "/images/sponsors/digital-social.png",
+      image: "/european-kabaddi-championship-2027/images/sponsors/digital-social.png",
     },
     {
       title: "Broadcast Exposure",
       label: "Live Coverage",
-      image: "/images/sponsors/broadcast.png",
+      image: "/european-kabaddi-championship-2027/images/sponsors/broadcast.png",
     },
   ].map((item, i) => (
     <Reveal key={item.title} delay={i * 80}>

@@ -12,12 +12,12 @@ const VIDEOS = [
 ];
 
 const GALLERY = [
-  { id: "g1", src: "/images/news/01_News_Road_to_EKC_2027.jpg", caption: "Road to EKC 2027", span: "lg:col-span-2 lg:row-span-2" },
-  { id: "g2", src: "/images/athletes/01_Lucas_Moreau.jpg", caption: "Lucas Moreau", span: "" },
-  { id: "g3", src: "/images/athletes/02_Anna_Schmidt.jpg", caption: "Anna Schmidt", span: "" },
-  { id: "g4", src: "/images/athletes/03_Kamil_Nowak.jpg", caption: "Kamil Nowak", span: "" },
-  { id: "g5", src: "/images/athletes/04_Sofia_Rossi.jpg", caption: "Sofia Rossi", span: "" },
-  { id: "g6", src: "/images/news/02_News_European_Stage.jpg", caption: "The European Stage", span: "lg:col-span-4" },
+  { id: "g1", src: "/european-kabaddi-championship-2027/images/news/01_News_Road_to_EKC_2027.jpg", caption: "Road to EKC 2027", span: "lg:col-span-2 lg:row-span-2" },
+  { id: "g2", src: "/european-kabaddi-championship-2027/images/athletes/01_Lucas_Moreau.jpg", caption: "Lucas Moreau", span: "" },
+  { id: "g3", src: "/european-kabaddi-championship-2027/images/athletes/02_Anna_Schmidt.jpg", caption: "Anna Schmidt", span: "" },
+  { id: "g4", src: "/european-kabaddi-championship-2027/images/athletes/03_Kamil_Nowak.jpg", caption: "Kamil Nowak", span: "" },
+  { id: "g5", src: "/european-kabaddi-championship-2027/images/athletes/04_Sofia_Rossi.jpg", caption: "Sofia Rossi", span: "" },
+  { id: "g6", src: "/european-kabaddi-championship-2027/images/news/02_News_European_Stage.jpg", caption: "The European Stage", span: "lg:col-span-4" },
 ];
 
 export function Media() {

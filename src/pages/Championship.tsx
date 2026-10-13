@@ -30,7 +30,7 @@ export function Championship() {
           </Reveal>
           <Reveal delay={150}>
             <img
-  src="/images/athletes/01_Lucas_Moreau.jpg"
+  src="/european-kabaddi-championship-2027/images/athletes/01_Lucas_Moreau.jpg"
   alt="European Kabaddi Championship athlete"
   className="h-80 lg:h-[440px] w-full object-cover"
  />
@@ -52,7 +52,7 @@ export function Championship() {
               <Reveal key={cat.title} delay={i * 120}>
                 <div className="group relative overflow-hidden card-surface">
                   <img
-  src={cat.variant === "men" ? "/images/athletes/01_Lucas_Moreau.jpg" : "/images/athletes/04_Sofia_Rossi.jpg"}
+  src={cat.variant === "men" ? "/european-kabaddi-championship-2027/images/athletes/01_Lucas_Moreau.jpg" : "/european-kabaddi-championship-2027/images/athletes/04_Sofia_Rossi.jpg"}
   alt={cat.title}
   className="h-56 w-full object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]"
 />
@@ -105,7 +105,7 @@ export function Championship() {
         <div className="container-edge grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <Reveal>
             <img
-  src="/images/athletes/01_Lucas_Moreau.jpg"
+  src="/european-kabaddi-championship-2027/images/athletes/01_Lucas_Moreau.jpg"
   alt="Kabaddi athlete in the championship arena"
   className="h-80 lg:h-[400px] w-full object-cover object-center"
 />
