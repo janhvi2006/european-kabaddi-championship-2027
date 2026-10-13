@@ -49,7 +49,7 @@ interface AbArenaProps {
 export function AbArena({ className = "" }: AbArenaProps) {
   return (
     <div className={`relative overflow-hidden ${className}`}>
-      <div className="absolute inset-0 bg-gradient-to-b from-midnight via-midnight-2 to-midnight" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#17243d] via-[#101b30] to-[#080c18]" />
       {/* arena silhouette - concentric arcs suggesting stadium bowl */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[140%] aspect-[2/1]">
         {[0, 1, 2, 3, 4].map((i) => (
